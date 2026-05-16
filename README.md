@@ -63,11 +63,13 @@ comm file1 file2
  ## OUTPUT
 
  
+<img width="399" height="209" alt="Screenshot 2026-05-16 203028" src="https://github.com/user-attachments/assets/e54058e5-e1e9-4896-8a1a-335c892197a1" />
 
  
 diff file1 file2
 ## OUTPUT
 
+<img width="338" height="284" alt="Screenshot 2026-05-16 203150" src="https://github.com/user-attachments/assets/24ff4c32-4d0a-445d-b841-d7ed315e52c5" />
 
 
 #Filters
@@ -121,13 +123,11 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-<img width="880" height="80" alt="image" src="https://github.com/user-attachments/assets/81654bd8-a6e4-4b21-a0e4-932b3059bc70" />
 
 
 grep hello newfile 
 ## OUTPUT
 
-<img width="817" height="77" alt="image" src="https://github.com/user-attachments/assets/ae1dc389-04ed-456d-82fb-344603be8c20" />
 
 
 grep -v hello newfile 
