@@ -62,13 +62,12 @@ cmp file1 file2
 comm file1 file2
  ## OUTPUT
 
- <img width="398" height="208" alt="image" src="https://github.com/user-attachments/assets/30857603-4182-4e8f-b708-0bc726dfc144" />
+ 
 
  
 diff file1 file2
 ## OUTPUT
 
-<img width="337" height="283" alt="image" src="https://github.com/user-attachments/assets/c434cc0f-06c0-4b73-8018-2024d9ec2a21" />
 
 
 #Filters
