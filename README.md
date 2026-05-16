@@ -93,16 +93,20 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
+<img width="403" height="97" alt="image" src="https://github.com/user-attachments/assets/92c8cc73-18a4-4b6f-acde-435495e06e0b" />
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="353" height="152" alt="image" src="https://github.com/user-attachments/assets/5a57ab79-3540-46be-ab7c-d2be4b3c4fa4" />
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+<img width="487" height="150" alt="image" src="https://github.com/user-attachments/assets/78b40ee7-8330-4d6d-a9dc-40e44be97783" />
+
 
 
 cat < newfile 
@@ -118,12 +122,13 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="880" height="80" alt="image" src="https://github.com/user-attachments/assets/81654bd8-a6e4-4b21-a0e4-932b3059bc70" />
 
 
 grep hello newfile 
 ## OUTPUT
 
-
+<img width="817" height="77" alt="image" src="https://github.com/user-attachments/assets/ae1dc389-04ed-456d-82fb-344603be8c20" />
 
 
 grep -v hello newfile 
