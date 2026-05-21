@@ -444,6 +444,8 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 
+<img width="791" height="582" alt="Screenshot 2026-05-21 203126" src="https://github.com/user-attachments/assets/6cbbf290-0777-48b4-be96-b84f61f2d051" />
+
 
 mkdir backupdir
  
@@ -455,16 +457,30 @@ tar -tvf backup.tar
 ## OUTPUT
 
 
+<img width="789" height="608" alt="Screenshot 2026-05-21 203440" src="https://github.com/user-attachments/assets/7b976f99-faf1-4de8-ae35-ec5a4c6e0769" />
+
+
 tar -xvf backup.tar
 ## OUTPUT
+
+
+<img width="799" height="604" alt="Screenshot 2026-05-21 203655" src="https://github.com/user-attachments/assets/a60c44dd-2900-4509-b598-59cad132064b" />
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
+
+<img width="512" height="309" alt="Screenshot 2026-05-21 204549" src="https://github.com/user-attachments/assets/9a15a99b-b863-4330-9f4c-0b7fd95a2a33" />
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+
+
+<img width="512" height="309" alt="Screenshot 2026-05-21 204549" src="https://github.com/user-attachments/assets/75d7573f-ffd9-4ad4-ab39-4708c78463e4" />
 
  
 # Shell Script
@@ -475,6 +491,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+
+<img width="803" height="160" alt="image" src="https://github.com/user-attachments/assets/f0f0599f-9c5c-4568-8f56-62c6da4d4dd5" />
 
  
 cat << stop > herecheck.txt
