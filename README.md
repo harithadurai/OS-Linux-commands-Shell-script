@@ -506,6 +506,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
+<img width="410" height="157" alt="image" src="https://github.com/user-attachments/assets/1738bdb8-83cf-4b89-8586-6abf8802c11f" />
 
 cat < scriptest.sh 
 ```bash
@@ -537,32 +538,46 @@ echo 'The $\# is ' $\#
 echo 'The $$ is ' $$
 ps
 ```
- 
+ <img width="438" height="328" alt="image" src="https://github.com/user-attachments/assets/207fdcab-0cd6-4004-a582-78ebc1a3c1ed" />
+
 chmod 777 scriptest.sh
  
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
 
+<img width="737" height="435" alt="image" src="https://github.com/user-attachments/assets/4d595a82-20a0-4a94-8c76-c8194266feed" />
+
  
 ls file1
 ## OUTPUT
 
+<img width="452" height="157" alt="image" src="https://github.com/user-attachments/assets/4a56d78b-d557-426f-aa14-37311f53f74d" />
+
+
 echo $?
 ## OUTPUT 
+
+<img width="338" height="73" alt="image" src="https://github.com/user-attachments/assets/9357aa01-0bdd-4b1b-b93a-84326e02042f" />
+
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+
+<img width="398" height="85" alt="image" src="https://github.com/user-attachments/assets/343bd09c-ccba-41ba-8c2a-19444ea5cc3c" />
+
  
 abcd
  
 echo $?
  ## OUTPUT
 
+<img width="398" height="85" alt="image" src="https://github.com/user-attachments/assets/5057525e-36ec-47f6-b49c-fc4fea11ceb5" />
 
- 
+
 # mis-using string comparisons
 
 cat < strcomp.sh 
